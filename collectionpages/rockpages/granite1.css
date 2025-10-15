@@ -1,0 +1,176 @@
+body {
+    background-image: url(../../images/sparklebg2.gif);
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Changa One', sans-serif;
+    cursor: url(../../images/rockguy.png), auto;
+}
+
+.float_right {
+    float: right;
+}
+
+.center_text {
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    padding: auto;
+    width: 870px;
+}
+
+#rocks_box {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 530px;
+    background-color: #C6CBD4;
+    border: 4px solid #B97A91;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+h1 {
+    color: transparent;
+    font-family: 'Rubik Moonrocks', sans-serif;
+    font-size: 800%;
+    margin: 0;
+    background-image: url(../../images/sparklystone.gif);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+        -webkit-background-clip: text;
+    
+}
+
+#top_nav_box {
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    background-color: #C6CBD4;
+    border: 4px solid #496f87;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+#top_nav_list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.top_nav_link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1b2933;
+    text-shadow: 0px 2px 4px #B97A91;
+}
+
+.top_nav_link:hover, .top_nav_link:focus {
+    color: white;
+    transition: color 0s ease-in;
+}
+
+.top_nav_item:hover, .top_nav_item:focus {
+    background-color: #1b2933;
+    transition: 0s ease-in;
+}
+
+.top_nav_item {
+    display: inline-block;
+    border: 2px solid #1b2933;
+    border-radius: 15px;
+}
+
+#first_margin {
+    margin: 10px 8px 10px 0px;
+}
+
+#middle_margin {
+    margin: 10px 0px 10px 0px;
+}
+
+#last_margin {
+    margin: 10px 0px 10px 8px;
+}
+
+#squig_left {
+    margin: 2px 10px 0px 0px;
+}
+
+#squig_right {
+    margin: 2px 0px 0px 10px;
+}
+
+#dropdown {
+    position: relative;
+}
+
+#dropdown_menu {
+    position: absolute;
+    top: 37px;
+    left: 9px;
+    width: 119px;
+    display: none;
+    padding: 0;
+    background-color: #B97A91;
+    list-style: none;
+    border: 1px solid #1b2933;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.dropdown_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 2px 4px #1b2933;
+}
+
+.dropdown_link:hover {
+    color: #1b2933;
+    text-shadow: 0px 2px 4px white;
+}
+
+.dropdown_item {
+    margin: 0px 0px 5px 2px;
+}
+
+#dropdown:hover > #dropdown_menu {
+    display: block;
+}
+
+#main_box {
+    width: 1200px;
+    height: 690px;
+    margin: 10px auto;
+    background-color: #C6CBD4;
+    border: 4px solid #496f87;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+#main_pic {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 690px;
+}
+
+#pic3 {
+    width: 80%;
+    height: 60%;
+    margin: 5px;
+    border: 3px solid #B97A91;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+#pic1 {
+    width: 20%;
+    height: 20%;
+}

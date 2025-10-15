@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Rocks :: Rocks</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./rocks.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap">
+    <script src="./rocks.js"></script>
+</head>
+<body>
+    <header>
+        <div id="rocks_box">
+            <h1 class="center_text">
+                ROCKS
+            </h1>
+        </div>
+
+        <div id="top_nav_box">
+            <nav>
+                <ul id="top_nav_list">
+                    <li id="squig_left">
+                        <img src="../images/leftsquiggle.png" alt="squiggly line">
+                    </li>
+
+                    <a class="top_nav_link" href="../index.html">
+                        <li class="top_nav_item" id="first_margin">
+                            ⟡ HOME ⟡
+                        </li>
+                    </a>
+
+                    <div id="dropdown">
+                        <a class="top_nav_link" href="../collection.html">
+                            <li class="top_nav_item" id="middle_margin">
+                                ⟡ COLLECTION ⟡
+                            </li>
+                        </a>
+                        <ul id="dropdown_menu">
+                            <a href="./rocks.html" class="dropdown_link">
+                                <li class="dropdown_item">
+                                    ‣ ROCKS
+                                </li>
+                            </a>
+
+                            <a href="./shells.html" class="dropdown_link">
+                                <li class="dropdown_item">
+                                    ‣ SHELLS
+                                </li>
+                            </a>
+
+                            <a href="./fossils.html" class="dropdown_link">
+                                <li class="dropdown_item">
+                                    ‣ FOSSILS
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <a class="top_nav_link" href="../submit.html">
+                        <li class="top_nav_item" id="last_margin">
+                            ⟡ SUBMIT ⟡
+                        </li>
+                    </a>
+
+                    <li id="squig_right">
+                        <img src="../images/rightsquiggle.png" alt="squiggly line">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="main_box">
+            <div id="content_box" class="float_right">
+                
+                <div id="scroll">
+                   
+                </div>
+            </div>
+
+            <div id="filter_box">
+                <div id="top_box">
+                    <h2 id="filter_title">
+                        FILTER
+                    </h2>
+                </div>
+
+                <div id="type_box">
+                    <h4 class="label_text">
+                        Type:
+                    </h4>
+                </div>
+                
+                <div class="select_box">
+                    <select id="types" name="types" multiple>
+                        <option value="Sedimentary">Sedimentary</option>
+                        <option value="Igneous">Igneous</option>
+                        <option value="Metamorphic">Metamorphic</option>
+                    </select>
+                </div>
+
+                <div id="location_box">
+                    <h4 class="label_text">
+                        Location:
+                    </h4>
+                </div>
+
+                <div class="select_box">
+                    <select id="locations" name="locations" multiple>
+                        <option value="Michigan, USA">Michigan, USA</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                    </select>
+                </div>
+
+                <div id="submitter_box">
+                    <h4 class="label_text">
+                        Submitted by:
+                    </h4>
+                </div>
+
+                <div class="select_box">
+                    <select id="submitters" name="submitters" multiple>
+                        <option value="Heidi Hepler">Heidi Hepler</option>
+                        <option value="Community">Community</option>
+                    </select>
+                </div>
+
+                <div id="button_box">
+                    <button id="submit" type="submit">
+                        Apply
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
